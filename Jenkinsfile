@@ -19,7 +19,7 @@ pipeline{
                 sh 'java -version'
 
                 echo 'docker version:'
-                sh 'docker -version'
+                sh 'docker -v'
 
                 echo 'jenkins version:'
                 sh 'jenkins -version'
