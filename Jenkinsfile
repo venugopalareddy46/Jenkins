@@ -18,9 +18,6 @@ pipeline{
                 echo 'java version:'
                 sh 'java -version'
 
-                echo 'docker installation:'
-                sh 'sudo apt install docker.io -y'
-
                 echo 'docker version:'
                 sh 'docker -version'
 
