@@ -22,7 +22,7 @@ pipeline{
                 sh 'docker -v'
 
                 echo 'jenkins version:'
-                sh 'jenkins -v'
+                sh 'jenkins version'
             }
         }
     }
