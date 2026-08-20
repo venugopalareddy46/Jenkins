@@ -12,7 +12,9 @@ pipeline{
                 echo 'list files:'
                 sh 'ls -a'
             }
-            steps('checking versions') {
+        }
+        stage( 'version commands') {
+            steps {
                 echo 'java version:'
                 sh 'java -version'
 
